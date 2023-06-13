@@ -1,0 +1,20 @@
+<!-- index.php -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Portal</title>
+</head>
+<body>
+    <h1>Welcome to the School Portal</h1>
+    <form action="login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required><br>
+
+        <input type="submit" value="Log In">
+    </form>
+</body>
+</html>
